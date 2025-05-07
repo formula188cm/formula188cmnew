@@ -476,4 +476,19 @@ body {
   .ba-alt-pair {
     padding: 12px 2vw 12px 2vw;
   }
+}
+
+.cover-buy-btn-wrap, .section-buy-btn-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 32px 0 0 0;
+}
+.section-buy-btn-wrap {
+  margin: 36px 0 0 0;
+}
+@media (max-width: 600px) {
+  .cover-buy-btn-wrap, .section-buy-btn-wrap {
+    margin: 18px 0 0 0;
+  }
 } 
