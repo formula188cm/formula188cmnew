@@ -1,0 +1,479 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', 'Montserrat', Arial, sans-serif;
+  background: #fff;
+  color: #222;
+}
+
+.cover-section {
+  width: 100vw;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0 20px 0;
+}
+.cover-img {
+  max-width: 400px;
+  width: 90vw;
+  border-radius: 24px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.10);
+}
+
+.highlights {
+  text-align: center;
+  margin: 30px 0 40px 0;
+}
+.highlight {
+  font-size: 2.2rem;
+  font-weight: 900;
+  color: #111;
+  margin: 18px 0;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+.highlight-accent {
+  color: #eab308;
+  font-weight: 900;
+  letter-spacing: 1px;
+}
+
+.before-after {
+  margin: 40px 0 60px 0;
+  text-align: center;
+}
+.section-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.3rem;
+  font-weight: 900;
+  color: #222;
+  letter-spacing: 1px;
+  margin-bottom: 32px;
+}
+
+.ba-columns {
+  display: flex;
+  justify-content: center;
+  gap: 48px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+.ba-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+.ba-col-title {
+  font-size: 1.5rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 18px;
+}
+.ba-img {
+  width: 320px;
+  height: 480px;
+  object-fit: cover;
+  border-radius: 20px;
+  box-shadow: 0 6px 24px rgba(0,0,0,0.13);
+  background: #f7f7f7;
+  margin-bottom: 0;
+  transition: transform 0.2s;
+}
+.ba-img:hover {
+  transform: scale(1.04) translateY(-4px);
+  box-shadow: 0 12px 32px rgba(225,29,72,0.13);
+}
+
+.ebook-details {
+  max-width: 900px;
+  margin: 0 auto 60px auto;
+  padding: 0 20px;
+  background: #fff;
+}
+.ebook-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.2rem;
+  font-weight: 900;
+  color: #1e293b;
+  margin-bottom: 18px;
+  letter-spacing: 1px;
+  text-align: left;
+}
+.colorful {
+  color: #e11d48;
+  font-family: 'Montserrat', cursive, sans-serif;
+  font-weight: 900;
+  letter-spacing: 1.5px;
+}
+.ebook-features {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 30px 0;
+  text-align: left;
+}
+.ebook-features li {
+  font-size: 1.25rem;
+  margin: 16px 0;
+  font-family: 'Roboto', sans-serif;
+  color: #0f172a;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-align: left;
+}
+.icon {
+  font-size: 1.5rem;
+}
+.feature-title {
+  font-weight: 700;
+  color: #2563eb;
+  font-family: 'Montserrat', sans-serif;
+}
+.ebook-explanation {
+  margin: 40px 0 0 0;
+  text-align: left;
+}
+.ebook-explanation h3 {
+  font-size: 1.5rem;
+  margin: 18px 0 10px 0;
+  font-family: 'Montserrat', sans-serif;
+  color: #e11d48;
+  font-weight: 900;
+  text-align: left;
+}
+.ebook-explanation p {
+  font-size: 1.1rem;
+  color: #222;
+  margin-bottom: 18px;
+  line-height: 1.7;
+  text-align: left;
+}
+.ebook-benefits {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 30px 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px 32px;
+  text-align: left;
+}
+.ebook-benefits li {
+  font-size: 1.1rem;
+  color: #059669;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+  text-align: left;
+}
+.cta-section {
+  text-align: center;
+  margin: 40px 0 0 0;
+}
+.cta-btn {
+  display: inline-block;
+  background: linear-gradient(90deg, #eab308 0%, #e11d48 100%);
+  color: #fff;
+  font-size: 1.3rem;
+  font-weight: 900;
+  padding: 18px 48px;
+  border-radius: 32px;
+  text-decoration: none;
+  margin-bottom: 12px;
+  box-shadow: 0 4px 16px rgba(225,29,72,0.10);
+  transition: background 0.2s, transform 0.2s;
+}
+.cta-btn:hover {
+  background: linear-gradient(90deg, #e11d48 0%, #eab308 100%);
+  transform: translateY(-2px) scale(1.03);
+}
+.guarantee {
+  color: #eab308;
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-top: 8px;
+}
+
+/* Purchase Cards Section */
+.purchase-section {
+  max-width: 1100px;
+  margin: 0 auto 60px auto;
+  padding: 0 20px;
+  text-align: center;
+}
+.purchase-title {
+  font-size: 2.1rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  color: #e11d48;
+  margin-bottom: 32px;
+  letter-spacing: 1.2px;
+}
+.purchase-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  justify-content: center;
+}
+.purchase-card {
+  background: linear-gradient(120deg, #fff 60%, #fef3c7 100%);
+  border-radius: 28px;
+  box-shadow: 0 6px 32px rgba(225,29,72,0.08);
+  padding: 36px 32px 32px 32px;
+  min-width: 260px;
+  max-width: 320px;
+  flex: 1 1 260px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: box-shadow 0.2s, transform 0.2s;
+  position: relative;
+}
+.purchase-card:hover {
+  box-shadow: 0 12px 48px rgba(225,29,72,0.18);
+  transform: translateY(-6px) scale(1.03);
+}
+.card-icon {
+  font-size: 2.5rem;
+  margin-bottom: 18px;
+}
+.card-title {
+  font-size: 1.3rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  color: #1e293b;
+  margin-bottom: 10px;
+}
+.card-desc {
+  font-size: 1.05rem;
+  color: #444;
+  margin-bottom: 18px;
+  min-height: 48px;
+}
+.card-btn {
+  display: inline-block;
+  background: linear-gradient(90deg, #eab308 0%, #e11d48 100%);
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 900;
+  padding: 14px 36px;
+  border-radius: 24px;
+  text-decoration: none;
+  margin-top: 10px;
+  box-shadow: 0 2px 8px rgba(225,29,72,0.10);
+  transition: background 0.2s, transform 0.2s;
+}
+.card-btn:hover {
+  background: linear-gradient(90deg, #e11d48 0%, #eab308 100%);
+  transform: scale(1.04);
+}
+.card-badge {
+  position: absolute;
+  top: 18px;
+  right: 18px;
+  background: #e11d48;
+  color: #fff;
+  font-size: 0.95rem;
+  font-weight: 700;
+  padding: 6px 16px;
+  border-radius: 16px;
+  letter-spacing: 1px;
+}
+
+@media (max-width: 1200px) {
+  .purchase-cards {
+    gap: 18px;
+  }
+}
+@media (max-width: 900px) {
+  .ba-columns {
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+  }
+  .ba-col {
+    gap: 24px;
+  }
+  .ba-img {
+    width: 90vw;
+    max-width: 340px;
+    height: 340px;
+  }
+  .purchase-cards {
+    flex-direction: column;
+    gap: 24px;
+  }
+  .purchase-card {
+    max-width: 95vw;
+    min-width: 0;
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 600px) {
+  .cover-img {
+    max-width: 98vw;
+    border-radius: 12px;
+  }
+  .highlight {
+    font-size: 1.2rem;
+  }
+  .section-title, .ebook-title, .purchase-title {
+    font-size: 1.3rem;
+  }
+  .ba-img {
+    width: 92vw;
+    max-width: 98vw;
+    height: 220px;
+    border-radius: 14px;
+  }
+  .ba-col-title {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+  }
+  .cta-btn {
+    font-size: 1rem;
+    padding: 12px 24px;
+  }
+  .purchase-card {
+    padding: 22px 8px 22px 8px;
+  }
+  .card-title {
+    font-size: 1.1rem;
+  }
+  .card-desc {
+    font-size: 0.95rem;
+  }
+  .card-btn {
+    font-size: 0.95rem;
+    padding: 10px 18px;
+  }
+  .ebook-details {
+    padding: 0 4vw;
+  }
+  .ebook-title {
+    font-size: 1.2rem;
+    text-align: left;
+  }
+  .ebook-features {
+    padding-left: 0;
+    margin-left: 0;
+    text-align: left;
+  }
+  .ebook-features li {
+    font-size: 1rem;
+    margin: 12px 0;
+    gap: 8px;
+    text-align: left;
+  }
+  .ebook-explanation {
+    margin: 24px 0 0 0;
+    text-align: left;
+  }
+  .ebook-explanation h3 {
+    font-size: 1rem;
+    text-align: left;
+  }
+  .ebook-explanation p {
+    font-size: 0.98rem;
+    text-align: left;
+  }
+  .ebook-benefits {
+    flex-direction: column;
+    gap: 10px;
+    text-align: left;
+  }
+  .ebook-benefits li {
+    font-size: 0.98rem;
+    text-align: left;
+  }
+}
+/* Remove old ba-gallery and ba-pair styles if not used anymore */
+.ba-gallery, .ba-pair { display: none !important; }
+
+.ba-alt-list {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+}
+.ba-alt-pair {
+  background: #fff;
+  border-radius: 28px;
+  box-shadow: 0 6px 32px rgba(30,41,59,0.07);
+  padding: 36px 24px 32px 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  position: relative;
+}
+.ba-alt-label {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 1.25rem;
+  letter-spacing: 1px;
+  margin: 10px 0 8px 0;
+  padding: 2px 18px;
+  border-radius: 16px;
+  background: #f3f4f6;
+  color: #1e293b;
+  display: inline-block;
+  box-shadow: 0 2px 8px rgba(30,41,59,0.04);
+}
+.ba-alt-label.before {
+  background: linear-gradient(90deg, #fef3c7 0%, #fff 100%);
+  color: #e11d48;
+}
+.ba-alt-label.after {
+  background: linear-gradient(90deg, #d1fae5 0%, #fff 100%);
+  color: #059669;
+}
+.ba-alt-pair .ba-img {
+  width: 320px;
+  height: 480px;
+  object-fit: cover;
+  border-radius: 20px;
+  box-shadow: 0 6px 24px rgba(0,0,0,0.13);
+  background: #f7f7f7;
+  margin-bottom: 0;
+  transition: transform 0.2s;
+}
+.ba-alt-pair .ba-img:hover {
+  transform: scale(1.04) translateY(-4px);
+  box-shadow: 0 12px 32px rgba(225,29,72,0.13);
+}
+@media (max-width: 900px) {
+  .ba-alt-list {
+    gap: 32px;
+    max-width: 98vw;
+  }
+  .ba-alt-pair .ba-img {
+    width: 90vw;
+    max-width: 340px;
+    height: 340px;
+  }
+  .ba-alt-pair {
+    padding: 22px 4vw 22px 4vw;
+  }
+}
+@media (max-width: 600px) {
+  .ba-alt-pair .ba-img {
+    width: 92vw;
+    max-width: 98vw;
+    height: 511px;
+    border-radius: 14px;
+  }
+  .ba-alt-label {
+    font-size: 1rem;
+    padding: 2px 10px;
+  }
+  .ba-alt-pair {
+    padding: 12px 2vw 12px 2vw;
+  }
+} 
